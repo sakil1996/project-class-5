@@ -1,0 +1,52 @@
+/* Defult css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    background-color: royalblue;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width:180px ;
+    height: auto;
+}
+.header-rigth{
+    float: right;
+    width: 70%;
+    
+}
+.header-rigth ul{
+    text-align: right;
+}
+.header-rigth ul li{
+    display: inline-block;
+  
+  margin-left: 5px;
+}
+.header-rigth ul li a{
+    display: block;
+    text-decoration: none;
+    color: seashell;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height:70px;
+    transition: .4s;
+
+}
+.header-rigth ul li a:hover{
+    background-color: red;
+    color: seashell;
+}
