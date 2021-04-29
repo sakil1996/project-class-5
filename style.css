@@ -50,3 +50,61 @@ img{
     background-color: red;
     color: seashell;
 }
+/* contener section*/
+.contener{
+    background-image: url(images/google.jpg);
+   padding: 200px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.contener .bener-caption h1,h2{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    transition: .4s;
+    padding-top: 5px;
+}
+.contener.bener-caption h1,h2:hover{
+    color: salmon;
+
+}
+.btn{
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 40px;
+}
+.btn button{
+    background-color: skyblue;
+    font-size: 30px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    transition: .4s;
+}
+.btn button:hover{
+    background-color: slateblue;
+    color: snow;
+
+}
+.blog{
+    width: 100%;
+    height: auto;
+    background-color: thistle;
+    border-left: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.blog .div1,.div2,.div3{
+    width: 30%;
+    float: left;
+    padding:10px ;
+    padding-top: 20px;
+    border: 5px red solid;
+    border-radius: 10px;
+
+}
+.blog h1, h2{
+    font-size: 30px;
+}
